@@ -296,7 +296,7 @@ class Util
 
 END;
 
-        fprintf( STDERR, $buf );
+        print_r($buf);
 
     }
     
