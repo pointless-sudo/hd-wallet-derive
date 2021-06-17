@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace HDWalletDerive;
 
 // For HD-Wallet Key Derivation
 use BitWasp\Bitcoin\Bitcoin;
