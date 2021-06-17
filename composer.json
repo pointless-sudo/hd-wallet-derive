@@ -1,6 +1,12 @@
 {
     "name": "dan-da/hd-wallet-derive",
     "minimum-stability": "dev",
+    "repositories": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/pointless-sudo/bitcoin-php.git"
+        }
+    ],
     "require": {
         "bitwasp/bitcoin": "dev-master#8782bc6c470e342d4e0cb67eb036974f133b950b",
         "ext-json": "*",
