@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Utils;
+namespace HDWalletDerive\Utils;
 
 use BitWasp\Bitcoin\Network\Network;
 use BitWasp\Bitcoin\Script\ScriptType;

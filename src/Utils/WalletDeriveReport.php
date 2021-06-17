@@ -6,7 +6,7 @@
  * Time: 下午6:47
  */
 
-namespace App\Utils;
+namespace HDWalletDerive\Utils;
 
 use texttable;
 use texttable_markdown;

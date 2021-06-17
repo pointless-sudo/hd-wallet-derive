@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Utils;
+namespace HDWalletDerive\Utils;
 
 /***
  * A helper function to access single instance of logger class from anywhere.

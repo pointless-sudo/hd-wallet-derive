@@ -10,9 +10,9 @@ use BitWasp\Bitcoin\Crypto\Random\Random;
 use BitWasp\Bitcoin\Mnemonic\Bip39\Bip39SeedGenerator;
 use BitWasp\Bitcoin\Mnemonic\MnemonicFactory;
 use Exception;
-use App\Utils\NetworkCoinFactory;
-use App\Utils\MyLogger;
-use App\Utils\CashAddress;
+use HDWalletDerive\Utils\NetworkCoinFactory;
+use HDWalletDerive\Utils\MyLogger;
+use HDWalletDerive\Utils\CashAddress;
 use CoinParams\CoinParams;
 
 // For ethereum addresses
@@ -31,7 +31,7 @@ use BitWasp\Bitcoin\Key\Deterministic\Slip132\Slip132;
 use BitWasp\Bitcoin\Key\KeyToScript\KeyToScriptHelper;
 use BitWasp\Bitcoin\Serializer\Key\HierarchicalKey\Base58ExtendedKeySerializer;
 use BitWasp\Bitcoin\Serializer\Key\HierarchicalKey\ExtendedKeySerializer;
-use App\Utils\MultiCoinRegistry;
+use HDWalletDerive\Utils\MultiCoinRegistry;
 use BitWasp\Bitcoin\Network\Slip132\BitcoinRegistry;
 
 // For determining key type via Base58 encode/decode

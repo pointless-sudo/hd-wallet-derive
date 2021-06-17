@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Utils;
+namespace HDWalletDerive\Utils;
 
 class CashAddressException extends \Exception
 {

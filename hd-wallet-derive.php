@@ -12,10 +12,10 @@ require_once __DIR__ . '/vendor/autoload.php';
 \strictmode\initializer::init();
 
 
-use App\Utils\MyLogger;
-use App\WalletDerive;
-use App\Utils\WalletDeriveReport;
-use App\Utils\Util;
+use HDWalletDerive\Utils\MyLogger;
+use HDWalletDerive\WalletDerive;
+use HDWalletDerive\Utils\WalletDeriveReport;
+use HDWalletDerive\Utils\Util;
 
 
 

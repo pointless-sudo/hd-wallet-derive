@@ -92,7 +92,7 @@
 //
 // For more information, please refer to <http://unlicense.org/>
 
-namespace App\Utils;
+namespace HDWalletDerive\Utils;
 
 use BitWasp\Bech32;
 

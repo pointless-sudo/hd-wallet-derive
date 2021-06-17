@@ -6,7 +6,7 @@
  * Time: 下午12:45
  */
 
-namespace App\Utils;
+namespace HDWalletDerive\Utils;
 
 
 use BitWasp\Bitcoin\Network\Network;

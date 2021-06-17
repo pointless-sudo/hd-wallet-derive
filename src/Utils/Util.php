@@ -6,12 +6,12 @@
  * Time: 下午1:14
  */
 
-namespace App\Utils;
+namespace HDWalletDerive\Utils;
 
 
 use Exception;
-use App\WalletDerive;
-use App\Utils\PathPresets;
+use HDWalletDerive\WalletDerive;
+use HDWalletDerive\Utils\PathPresets;
 
 
 class Util

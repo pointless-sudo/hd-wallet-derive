@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Utils;
+namespace HDWalletDerive\Utils;
 
-use App\Utils\MyLogger;
+use HDWalletDerive\Utils\MyLogger;
 use Exception;
 use PDO;
 use PDOException;
