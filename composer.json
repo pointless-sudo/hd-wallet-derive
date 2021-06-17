@@ -4,11 +4,11 @@
     "repositories": [
         {
           "type": "vcs",
-          "url": "https://github.com/pointless-sudo/bitcoin-php.git"
+          "url": "https://github.com/pointless-sudo/bitwasp-bitcoin-php.git"
         }
     ],
     "require": {
-        "bitwasp/bitcoin": "dev-master#8782bc6c470e342d4e0cb67eb036974f133b950b",
+        "bitwasp/bitcoin": "dev-master",
         "ext-json": "*",
         "php": ">=5.5",
         "dan-da/texttable-php": "1.0.3",
