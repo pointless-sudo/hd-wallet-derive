@@ -98,7 +98,7 @@ class WalletDerive
             $this->derive_key_worker($coin, $symbol, $network, $addrs, $master, $key_type, null, 'm');
         }
 
-        MyLogger::getInstance()->log( "Deriving keys", MyLogger::info );
+        // MyLogger::getInstance()->log( "Deriving keys", MyLogger::info );
         $path_base = is_numeric( $params['path'][0] ) ?  'm/' . $params['path'] : $params['path'];
         
         // Allow paths to end with i or i'.
@@ -141,11 +141,11 @@ class WalletDerive
             if(time() - $period_start > 10)
             {
                 $pct = round($count / $numderive * 100, 2);
-                MyLogger::getInstance()->log( "Derived $count of $numderive keys.  ($pct%)", MyLogger::specialinfo );
+                // MyLogger::getInstance()->log( "Derived $count of $numderive keys.  ($pct%)", MyLogger::specialinfo );
                 $period_start = time();
             }
         }
-        MyLogger::getInstance()->log( "Derived $count keys", MyLogger::info );
+        // MyLogger::getInstance()->log( "Derived $count keys", MyLogger::info );
 
         return $addrs;
     }
